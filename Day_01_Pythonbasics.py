@@ -1,7 +1,7 @@
 # PYTHON
 
 # Day 1: Python basics.
-# Topics covered: variables, data types, input/output, basic operations.
+# Topics covered: variables, data types, input/output, basic arithmetic operations.
 
 # 1. Variables.
 
@@ -41,3 +41,4 @@ print("Multiplication: ",a*b)          # 39
 print("Division: ",a/b)                # 4.33
 print("Remainder: ",a%b)               # 1
 print("Exponentiation: ",a**b)         # 2197
+
