@@ -10,4 +10,5 @@ Day 1:
 4. Basic arithmetic operations.
 
 Day 2:
-1. if-else statement
+1. if-else statement.
+2. if-elif-else statement.
