@@ -1,6 +1,7 @@
 # Python
 
 # Day 3: Loops and Statments.
+# Topics covered: for loop, while loop, break statement, continue statement, range.
 
 # 1. for loop
 
@@ -63,4 +64,5 @@ for i in range(1,11):    # starting range and ending range (it goes till n-1).
 # Printing numbers with three arguments (start,stop,step)
 
 for i in range(2,21,2):
+
     print(i)                         # This will print all even numbers to 21.
