@@ -16,8 +16,18 @@ Day 2:
 3. Program to find the largest number among three numbers.
 
 Day 3:
-1. for loop.
-2. while loop.
-3. break statement.
-4. continue statement.
-5. range.
+1. For loop.
+2. While loop.
+3. Break statement.
+4. Continue statement.
+5. Range.
+
+Day 4:
+1. List
+2. List slicing
+3. List function
+4. Tuple
+5. Tuple slicing
+6. Tuple function
+7. Practice programs
+
