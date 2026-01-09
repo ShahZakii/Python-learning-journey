@@ -6,7 +6,7 @@
 # 1. Variables.
 
 name = "Zaki Shah"
-age = 22
+age = 20
 height = 5.11
 is_studet = True
 
@@ -41,4 +41,5 @@ print("Multiplication: ",a*b)          # 39
 print("Division: ",a/b)                # 4.33
 print("Remainder: ",a%b)               # 1
 print("Exponentiation: ",a**b)         # 2197
+
 
