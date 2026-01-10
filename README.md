@@ -31,3 +31,9 @@ Day 4:
 6. Tuple function
 7. Practice programs
 
+Day 5:
+Rock, Paper and Scissors game (Mini Project)
+Uses:
+1. User input
+2. Random module
+3. If-elif-else
