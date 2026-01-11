@@ -37,3 +37,9 @@ Uses:
 1. User input
 2. Random module
 3. If-elif-else
+
+Day 6:
+1. Sets
+2. Sets type conversion
+3. Empty set
+4. Set Functions(Union and intersection)
