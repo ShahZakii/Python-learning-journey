@@ -26,6 +26,12 @@ else:
     print("Number is zero or negative.")
 
 
+# 3. Short hand if-else 
+
+num = int(input("Enter a number: "))
+print("Even") if num % 2 == 0 else print("Odd")                
+
+
 # Program to find the greatest number among three numbers.
 
 a = int(input("Enter first number: "))
