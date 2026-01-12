@@ -13,7 +13,8 @@ Day 1:
 Day 2:
 1. if-else statement.
 2. if-elif-else statement.
-3. Program to find the largest number among three numbers.
+3. Short hand if-else statement.
+4. Program to find the largest number among three numbers.
 
 Day 3:
 1. For loop.
