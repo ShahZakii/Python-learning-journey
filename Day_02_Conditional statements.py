@@ -43,4 +43,4 @@ if(a >= b and a >= c):
 elif(b >= a and b >= c):
     print(b," is greatest.")
 else:
-    print(c," is greatest.") 
+    print(c," is greatest.")
