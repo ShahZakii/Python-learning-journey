@@ -44,3 +44,9 @@ Day 6:
 2. Sets type conversion
 3. Empty set
 4. Set Functions(Union and intersection)
+
+Day 7:
+1. Dictionary 
+2. Different ways to print dictionaries
+3. Dictionary.items()
+4. Dictionaries Functions.
