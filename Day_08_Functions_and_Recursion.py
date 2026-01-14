@@ -1,6 +1,7 @@
 # Python 
 
 # Day 8: Functions.
+# Topics covered: Function, Types of function, Parameters and arguments, Recursion.
 
 # 1.Function Definition: A function is a block of code that performs a specific task when it is called. Functions
 # help us to use the existing code again. It ensures code reusability.

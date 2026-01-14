@@ -50,3 +50,9 @@ Day 7:
 2. Different ways to print dictionaries
 3. Dictionary.items()
 4. Dictionaries Functions.
+
+Day 8: 
+1. Function 
+2. Types of function 
+3. Parameters and arguments
+4. Recursion.
