@@ -56,3 +56,6 @@ Day 8:
 2. Types of function 
 3. Parameters and arguments
 4. Recursion.
+
+Day 9:
+1. F-string.
