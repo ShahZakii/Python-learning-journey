@@ -59,3 +59,6 @@ Day 8:
 
 Day 9:
 1. F-string.
+
+Day 10: 
+1. Enumerate function.
