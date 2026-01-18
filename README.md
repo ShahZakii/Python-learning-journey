@@ -65,3 +65,8 @@ Day 10:
 
 Day 11: 
 1. DocString
+
+Day 12: 
+1. File I/O
+2. Modes of file
+3. With statement
