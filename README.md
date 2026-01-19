@@ -70,3 +70,7 @@ Day 12:
 1. File I/O
 2. Modes of file
 3. With statement
+
+Day 13:
+1. Lambda Function
+2. Examples
