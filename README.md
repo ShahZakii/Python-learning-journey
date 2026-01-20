@@ -74,3 +74,7 @@ Day 12:
 Day 13:
 1. Lambda Function
 2. Examples
+
+Day 14: 
+1. Introduction to OOPs
+2. Classes and Objects.
