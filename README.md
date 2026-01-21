@@ -78,3 +78,8 @@ Day 13:
 Day 14: 
 1. Introduction to OOPs
 2. Classes and Objects.
+
+Day 15:
+1. Constructor definition
+2. Types of constructor
+3. Practice question
