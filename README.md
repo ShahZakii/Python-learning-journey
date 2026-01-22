@@ -83,3 +83,6 @@ Day 15:
 1. Constructor definition
 2. Types of constructor
 3. Practice question
+
+Day 16:
+1. Decorators
