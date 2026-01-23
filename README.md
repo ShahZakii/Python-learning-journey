@@ -86,3 +86,7 @@ Day 15:
 
 Day 16:
 1. Decorators
+
+Day 17:
+1. Inheritance.
+2. Types of inheritance.
