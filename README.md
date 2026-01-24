@@ -90,3 +90,6 @@ Day 16:
 Day 17:
 1. Inheritance.
 2. Types of inheritance.
+
+Day 18:
+1. Practice Question(Library Class)
