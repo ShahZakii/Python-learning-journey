@@ -89,7 +89,7 @@ Day 16:
 
 Day 17:
 1. Inheritance.
-2. Types of inheritance.
+2. Types of inheritance.(Single,multiple,multilevel,hierarchical,hybrid)
 
 Day 18:
 1. Practice Question(Library Class)
