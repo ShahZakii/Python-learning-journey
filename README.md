@@ -93,3 +93,7 @@ Day 17:
 
 Day 18:
 1. Practice Question(Library Class)
+
+Day 19:
+1. Basic Questions.
+a. Find the factorial
