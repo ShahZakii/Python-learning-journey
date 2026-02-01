@@ -97,3 +97,6 @@ Day 18:
 Day 19:
 1. Basic Questions.
 a. Find the factorial
+
+Day 20:
+1. Question: Conditonal Operator and If-elif-else.
