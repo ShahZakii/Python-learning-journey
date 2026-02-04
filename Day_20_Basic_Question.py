@@ -20,7 +20,7 @@
 
 
 
-# Question 2: Find the second largest number in a list.
+# Question 2:   
 
 num = list(map(int,input("Enter numgers seperated by space: ").split()))
 

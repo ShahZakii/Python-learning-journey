@@ -100,3 +100,4 @@ a. Find the factorial
 
 Day 20:
 1. Question: Conditonal Operator and If-elif-else.
+2. Question: Find the second largest number in a list.
