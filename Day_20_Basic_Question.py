@@ -7,13 +7,23 @@
 # If any two are equal, print "Isosceles"
 # If all three are different, print "Scalene"
 
-a = int(input("Enter First number: "))
-b = int(input("Enter Second number: "))
-c = int(input("Enter Third number: "))
+# a = int(input("Enter First number: "))
+# b = int(input("Enter Second number: "))
+# c = int(input("Enter Third number: "))
 
-if ( a == b == c):
-    print("Equilateral")
-elif (a == b or b == c or c == a):
-    print("Isosceles")
-else:
-    print("Scalene")
+# if ( a == b == c):
+#     print("Equilateral")
+# elif (a == b or b == c or c == a):
+#     print("Isosceles")
+# else:
+#     print("Scalene")
+
+
+
+# Question 2: Find the second largest number in a list.
+
+num = list(map(int,input("Enter numgers seperated by space: ").split()))
+
+num.sort(reverse=True)
+
+print(num[1])
