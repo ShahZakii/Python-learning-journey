@@ -27,3 +27,17 @@ num = list(map(int,input("Enter numgers seperated by space: ").split()))
 num.sort(reverse=True)
 
 print(num[1])
+
+# Question 3:
+# The included code stub will read an integer,n, from STDIN.
+# Without using any string methods, try to print the following:
+# 123...n
+# Note that "..." represents the consecutive values in between.
+
+n = int(input())
+    
+newstr = ""
+for i in range(1,n+1):
+    type = str(i)
+    newstr += type
+print(newstr)
