@@ -57,7 +57,7 @@ integer_tuple = tuple(integer_list)
 print(hash(integer_tuple))
 
 
-Question 4:
+# Question 4:
 # Given the participants' score sheet for your University Sports Day, you are required to find the 
 # runner-up score. You are given n scores. Store them in a list and find the score of the runner-up.
 
@@ -68,3 +68,21 @@ if __name__ == '__main__':
     new_arr = list(rem_dup)
     new_arr.sort(reverse=True)
     print(new_arr[1])
+
+
+# Question 5:
+# We have seen that lists are mutable (they can be changed), and tuples are immutable (they cannot be changed).
+
+# Let's try to understand this with an example.
+
+# You are given an immutable string, and you want to make changes to it.
+
+def mutate_string(string, position, character):
+    new_string = string[:position] + character + string[position + 1:]
+    return new_string
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+    print(s_new)
