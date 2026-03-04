@@ -194,3 +194,17 @@ def is_leap(year):
         return False
 year = int(input())
 print(is_leap(year))
+
+
+# Question 10:
+# Given an integer, n, and n space-separated integers as input, create a tuple, t, of those n integers. Then compute and print 
+# the result of hash(t).
+
+# Note: hash() is one of the functions in the __builtins__ module, so it need not be imported.
+
+n = int(input())
+
+integer_list = map(int,input().split())
+integer_tuple = tuple(integer_list)
+
+print(hash(integer_tuple))
