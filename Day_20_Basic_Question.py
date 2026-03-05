@@ -208,3 +208,17 @@ integer_list = map(int,input().split())
 integer_tuple = tuple(integer_list)
 
 print(hash(integer_tuple))
+
+
+# Question 11:
+# You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
+
+def split_and_join(line):
+    split_line = line.split(" ")
+    join_line = "-".join(split_line)
+    return join_line
+
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
