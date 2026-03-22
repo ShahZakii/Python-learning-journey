@@ -218,6 +218,30 @@ def split_and_join(line):
     join_line = "-".join(split_line)
     return join_line
 
+# Question 12:
+# Create a stack using a list and perform operations:
+
+# 1.push x → push element
+# 2.pop → remove top element
+# 3.top → print top element
+# 4.size → print size of stack
+
+n = int(input())
+lst = []
+for _ in range(n):
+    command = input().split()
+    if(command[0] == "push"):
+        lst.append(int(command[1]))
+    elif(command[0] == "pop"):
+        if lst:
+            lst.pop()
+    elif(command[0] == "top"):
+        if lst:
+            print(lst[-1])
+    elif(command[0] == "size"):
+        print(len(lst))
+
+
 if __name__ == '__main__':
     line = input()
     result = split_and_join(line)
