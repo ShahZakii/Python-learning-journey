@@ -242,7 +242,25 @@ for _ in range(n):
         print(len(lst))
 
 
-if __name__ == '__main__':
-    line = input()
-    result = split_and_join(line)
-    print(result)
+# question 13:  You are given a list. Perform operations:
+# 1. add x → add element
+# 2. even → print all even numbers
+# 3. odd → print all odd numbers
+# 4. sum → print sum of list
+
+lst = []
+n = int(input())
+for _ in range(n):
+    command = input().split()
+    if(command[0] == "add"):
+        lst.append(int(command[1]))
+    elif(command[0] == "even"):
+        for i in lst:
+            if(i % 2 == 0):
+                print(i)
+    elif(command[0] == "odd"):
+        for i in lst:
+            if(i % 2 != 0):
+                print(i)
+    elif(command[0] == "sum"):
+       print(sum(lst))
