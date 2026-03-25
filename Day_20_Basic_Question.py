@@ -264,3 +264,20 @@ for _ in range(n):
                 print(i)
     elif(command[0] == "sum"):
        print(sum(lst))
+
+# question 45: Given an integer n and n space-separated integers, create a tuple t.
+#              Print the sum of elements and the hash of the tuple.
+
+n = int(input())
+create_lst = map(int,input().split())
+t = tuple(create_lst)
+print(sum(t))
+print(hash(t))
+
+# question 46: Given n integers, store them in a tuple t.
+#              Print the number of unique elements in the tuple.
+
+n = int(input())
+t = tuple(map(int,input().split()))
+unique_count = len(set(t))
+print(unique_count)
