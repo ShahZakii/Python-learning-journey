@@ -265,7 +265,7 @@ for _ in range(n):
     elif(command[0] == "sum"):
        print(sum(lst))
 
-# question 45: Given an integer n and n space-separated integers, create a tuple t.
+# question 14: Given an integer n and n space-separated integers, create a tuple t.
 #              Print the sum of elements and the hash of the tuple.
 
 n = int(input())
@@ -274,10 +274,30 @@ t = tuple(create_lst)
 print(sum(t))
 print(hash(t))
 
-# question 46: Given n integers, store them in a tuple t.
+# question 15: Given n integers, store them in a tuple t.
 #              Print the number of unique elements in the tuple.
 
 n = int(input())
 t = tuple(map(int,input().split()))
 unique_count = len(set(t))
 print(unique_count)
+
+# question 15: Create a tuple t from input.
+               # Print how many times a given number x appears in the tuple.
+
+n = int(input())
+t = tuple(map(int,input().split()))
+x = int(input())
+count = 0
+for i in t:
+    if(i == x):
+        count += 1
+print(count)
+
+# question 16: Create a tuple t and print the difference between the maximum and minimum elements.
+
+n = int(input())
+t = tuple(map(int,input().split()))
+max_num = max(t)
+min_num = min(t)
+print(max_num - min_num)
