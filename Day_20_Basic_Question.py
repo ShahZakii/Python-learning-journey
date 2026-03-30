@@ -329,3 +329,17 @@ for ch in str:
         lowercase_count += 1
 print(uppercase_count)
 print(lowercase_count)
+
+# question 19: Replace all spaces in the string with hyphens (-).
+
+str = input()
+print(str.replace(" ","-"))
+
+# question 20: Given a string, remove duplicate characters while preserving the order of first occurrence.
+
+str = input()
+result = " "
+for ch in str:
+    if ch not in result:
+        result += ch
+print(result
