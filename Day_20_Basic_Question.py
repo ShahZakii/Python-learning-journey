@@ -343,3 +343,20 @@ for ch in str:
     if ch not in result:
         result += ch
 print(result
+
+# question 21: Given a string of space-separated words, count how many words are present.
+
+str = input().split()
+count = 0
+for word in str:
+    count += 1
+print(count)
+
+# question 22: Given a string, remove duplicate words while maintaining the original order.
+
+str = input().split()
+result = []
+for word in str:
+    if word not in result:
+        result.append(word)
+print(" ".join(result))
