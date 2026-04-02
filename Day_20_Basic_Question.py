@@ -360,3 +360,20 @@ for word in str:
     if word not in result:
         result.append(word)
 print(" ".join(result))
+
+# question 22: Write a program to count the frequency of each character in a string.
+
+def char_frequency(s):
+    freq = {}
+
+    for ch in s:
+        if ch in freq:
+            freq[ch] += 1
+        else:
+            freq[ch] = 1
+
+    return freq
+
+# Input
+string = input("Enter a string: ")
+print(char_frequency(string))
