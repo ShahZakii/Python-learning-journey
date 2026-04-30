@@ -218,162 +218,23 @@ def split_and_join(line):
     join_line = "-".join(split_line)
     return join_line
 
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
+
+
 # Question 12:
-# Create a stack using a list and perform operations:
+ # Write a Python function that counts the number of vowels (a, e, i, o, u) in a given string.
 
-# 1.push x → push element
-# 2.pop → remove top element
-# 3.top → print top element
-# 4.size → print size of stack
+def count_vowels(text):
+    vowels = "aeiou"
+    count = 0
+    
+    for char in text.lower():
+        if char in vowels:
+            count += 1
+    
+    return count
 
-n = int(input())
-lst = []
-for _ in range(n):
-    command = input().split()
-    if(command[0] == "push"):
-        lst.append(int(command[1]))
-    elif(command[0] == "pop"):
-        if lst:
-            lst.pop()
-    elif(command[0] == "top"):
-        if lst:
-            print(lst[-1])
-    elif(command[0] == "size"):
-        print(len(lst))
-
-
-# question 13:  You are given a list. Perform operations:
-# 1. add x → add element
-# 2. even → print all even numbers
-# 3. odd → print all odd numbers
-# 4. sum → print sum of list
-
-lst = []
-n = int(input())
-for _ in range(n):
-    command = input().split()
-    if(command[0] == "add"):
-        lst.append(int(command[1]))
-    elif(command[0] == "even"):
-        for i in lst:
-            if(i % 2 == 0):
-                print(i)
-    elif(command[0] == "odd"):
-        for i in lst:
-            if(i % 2 != 0):
-                print(i)
-    elif(command[0] == "sum"):
-       print(sum(lst))
-
-# question 14: Given an integer n and n space-separated integers, create a tuple t.
-#              Print the sum of elements and the hash of the tuple.
-
-n = int(input())
-create_lst = map(int,input().split())
-t = tuple(create_lst)
-print(sum(t))
-print(hash(t))
-
-# question 15: Given n integers, store them in a tuple t.
-#              Print the number of unique elements in the tuple.
-
-n = int(input())
-t = tuple(map(int,input().split()))
-unique_count = len(set(t))
-print(unique_count)
-
-# question 15: Create a tuple t from input.
-               # Print how many times a given number x appears in the tuple.
-
-n = int(input())
-t = tuple(map(int,input().split()))
-x = int(input())
-count = 0
-for i in t:
-    if(i == x):
-        count += 1
-print(count)
-
-# question 16: Create a tuple t and print the difference between the maximum and minimum elements.
-
-n = int(input())
-t = tuple(map(int,input().split()))
-max_num = max(t)
-min_num = min(t)
-print(max_num - min_num)
-
-
-# question 17: write a function: 
-            # Given a string, reverse each word individually while maintaining the original word order.
-
-def reverse_words(s):
-    words = s.split()
-    reversed_words = []
-    for word in words:
-        reversed_words.append(word[::-1])
-        
-    return " ".join(reversed_words)
-
-s = input()
-print(reverse_words(s))
-
-# question 18: Given a string, count how many uppercase and lowercase letters are present.
-
-str = input()
-uppercase_count = 0
-lowercase_count = 0
-for ch in str:
-    if ch.isupper():
-        uppercase_count += 1
-    else:
-        lowercase_count += 1
-print(uppercase_count)
-print(lowercase_count)
-
-# question 19: Replace all spaces in the string with hyphens (-).
-
-str = input()
-print(str.replace(" ","-"))
-
-# question 20: Given a string, remove duplicate characters while preserving the order of first occurrence.
-
-str = input()
-result = " "
-for ch in str:
-    if ch not in result:
-        result += ch
-print(result
-
-# question 21: Given a string of space-separated words, count how many words are present.
-
-str = input().split()
-count = 0
-for word in str:
-    count += 1
-print(count)
-
-# question 22: Given a string, remove duplicate words while maintaining the original order.
-
-str = input().split()
-result = []
-for word in str:
-    if word not in result:
-        result.append(word)
-print(" ".join(result))
-
-# question 22: Write a program to count the frequency of each character in a string.
-
-def char_frequency(s):
-    freq = {}
-
-    for ch in s:
-        if ch in freq:
-            freq[ch] += 1
-        else:
-            freq[ch] = 1
-
-    return freq
-
-# Input
-string = input("Enter a string: ")
-print(char_frequency(string))
+print(count_vowels("Hello World"))  
