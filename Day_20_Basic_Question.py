@@ -253,3 +253,17 @@ if __name__ == '__main__':
     
     for i in range(n):
         print(i * i )
+
+
+# Question 14:Program to take user input and print a list:
+
+movies = []
+
+m1 = input("Enter first movie: ")
+m2 = input("Enter second movie: ")
+m3 = input("Enter third movie: ")
+movies.append(m1)
+movies.append(m2)
+movies.append(m3)
+
+print(movies)
