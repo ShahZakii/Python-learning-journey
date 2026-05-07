@@ -267,3 +267,19 @@ movies.append(m2)
 movies.append(m3)
 
 print(movies)
+
+# Question 15: Program
+
+class details:
+    def __init__(self, animal, group):
+        self.animal = animal 
+        self.group = group
+    
+    def info(self):
+        print(f"{self.animal} belongs to the {self.group} group.")
+
+a = details("Lion", "Wild")
+a.info()
+
+b = details("Goat", "Pet")
+b.info()
