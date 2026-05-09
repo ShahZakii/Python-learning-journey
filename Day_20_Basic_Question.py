@@ -283,3 +283,21 @@ a.info()
 
 b = details("Goat", "Pet")
 b.info()
+
+# Question 16: 
+
+def geometrymean(a,b):
+    mean = (a*b)/(a+b)
+    print(mean)
+
+def isgreater(a,b):
+    if (a > b):
+        print("First number is greater:")
+    else:
+        print("Second number is greater:")
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+geometrymean(a,b)
+isgreater(a,b)
