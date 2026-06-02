@@ -102,4 +102,4 @@ Day 20:
 1. Question: Conditonal Operator and If-elif-else.
 2. Question: Find the second largest number in a list.
 3. Question: Without using any string methods, try to print the following: 123...n.
-4. Question: Tuple question.
+4. Question: Tuple question python.
