@@ -301,3 +301,15 @@ b = int(input("Enter second number: "))
 
 geometrymean(a,b)
 isgreater(a,b)
+
+# Question 16: 
+
+fac = int(input("Enter a number to print factorial: "))
+
+num = 1
+for i in range(1, fac + 1):
+    num *= i
+print(num)
+
+for i in range(1,6):
+    print("*" * i)
