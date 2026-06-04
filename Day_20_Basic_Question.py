@@ -313,3 +313,18 @@ print(num)
 
 for i in range(1,6):
     print("*" * i)
+
+
+# Question 17: Basic Questions.
+
+
+
+def factorial(n):
+    if (n == 1 or n == 0):
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+num = int(input("Enter a number to find the factorial: "))
+fac = factorial(num)
+print(fac)
